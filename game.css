@@ -1,0 +1,275 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+body{
+background-color: navy;
+font-family: Montserrat;
+}
+
+
+.myBase{
+    width: 271px;
+    height:555px ;
+    background-color: white;
+    border-radius: 20px;
+    border:2px;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    text-align: center;
+}
+.Logo{
+    position: absolute;
+    top: 230.90px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+img{
+    width: 203px;
+    height: 84px;
+}
+.User{
+    background-image: url(ImageMarvelGame/LOGOgame.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 271px;
+    height:555px ;
+    border-radius: 20px;
+    border:2px;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+
+  
+}
+.Game_Title{
+    position: absolute;
+    top: 230.90px;
+    background-color: red;
+    font-size:medium;
+    margin-left: 10px;
+}
+#GO{
+    position: absolute;
+    top: 490.90px;
+    margin-left: 75px;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+#Lets_Go{
+    background-image: url(ImageMarvelGame/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 271px;
+    height:555px ;
+    border-radius: 20px;
+    border:2px;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    text-align: center;
+}
+
+.My_base_connected{
+    width: 271px;
+    height:555px ;
+    border-radius: 20px;
+    border:2px;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    text-align: center;
+    background-image: url(ImageMarvelGame/background_groupmarvel.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+.Connect{
+    position: absolute;
+    top: 150.90px;
+    margin-left: 35px;
+    margin-right: 30px;
+    font-weight: bold;
+    size: 50%;
+}
+.Name, .Mail, .Tel, .Username, .Password{
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: row;
+    opacity: 50%;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.Name{
+    top: 290.90px;
+}
+.Username{
+    top: 320px;
+}
+.Mail{
+    top: 350.90px;
+}
+.Password{
+    top: 380.90px;
+}
+.Tel{
+    top: 410.90px;
+}
+/*.Name, .Mail, .Tel label{
+    text-align: left;
+    margin-left:0px;
+}*/
+.Valid{
+    position: absolute;
+    top: 490.90px;
+    margin-left: 175px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    width: 90px;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 5px;
+    z-index: 2;
+    position: relative;
+}
+.Icon_iron, .Icon_hulk, .Icon_captaine, .Icon_spider_man, .Icon_thor, .Icon_blanckp, .Icon_spider, .Icon_star_lord{
+    width: 66px;
+    height: 66px;
+}
+.Select_icons{
+    width: 271px;
+    height:555px ;
+    border-radius: 20px;
+    border:2px;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    background-image: url(ImageMarvelGame/background_groupmarvel.png);
+   /* background-image: url(ImageMarvelGame/background_groupmarvel.png);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight:bolder;
+    text-align: center;
+}
+.Choice{
+    position: relative;
+    z-index: 2;
+}
+.Select_icons::before{
+    content: '';
+    position:absolute;
+    left: 0%;
+    top: 0%;
+    width: 271px;
+    height: 555px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+
+}
+.Background{
+    background-color: black;
+    width: 271px;
+    height:555px ;
+    border-radius: 20px;
+    border:2px;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    text-align: center;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.timer-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#timer {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+*/
+/*1179 x 2556 pixels iphone 16
+
+

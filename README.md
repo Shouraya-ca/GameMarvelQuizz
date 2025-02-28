@@ -21,7 +21,7 @@ Un jeu de quiz Marvel amusant et interactif ! Testez vos connaissances sur l'u
 ## Installation
 1. Clonez le dépôt depuis GitHub :
    bash
-   git clone
+   git clone https://github.com/Shouraya-ca/GameMarvelQuizz
    
 2. Installez les dépendances requises :
    bash
@@ -52,7 +52,7 @@ Ce projet est sous licence [MIT](LICENSE).
 
 ---
 
-📩 **Contactez-nous** pour toute question ou suggestion concernant le jeu. Bon quiz et que la chance soit avec vous ! 😄
+ **shouraya20@gmail.com** pour toute question ou suggestion concernant le jeu. Bon quiz et que la chance soit avec vous ! 
 
 
-Qu’en pensez-vous ? Si vous avez besoin d’adaptations ou de détails supplémentaires, je suis là pour vous aider ! 🚀
+Qu’en pensez-vous ? Si vous avez besoin d’adaptations ou de détails supplémentaires, je suis là pour vous aider ! 

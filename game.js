@@ -29,11 +29,7 @@ function formatTime(time) {
 }
 
 
-/*<div class="timer-container">
-        <h1>Minuteur</h1>
-        <div id="timer">
-            <span id="minutes">00</span>:<span id="seconds">00</span>
-        </div>
-        <button onclick="startTimer()">Démarrer</button>
-    </div>*/
-    
+
+
+
+

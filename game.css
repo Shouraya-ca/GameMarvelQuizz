@@ -24,12 +24,15 @@ font-family: Montserrat;
     left: 40%;
     top: 15%;
     text-align: center;
+    transition: opacity 1s;
 }
 .Logo{
     position: absolute;
-    top: 230.90px;
-    margin-left: 35px;
-    margin-right: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 1s;
 }
 img{
     width: 203px;
@@ -83,6 +86,21 @@ img{
     top: 15%;
     text-align: center;
 }
+#page_lets_go{
+    background-image: url(ImageMarvelGame/drdoom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 271px;
+    height:555px ;
+    border-radius: 20px;
+    border:2px;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    text-align: center;
+}
+
 
 .My_base_connected{
     width: 271px;
@@ -103,8 +121,8 @@ img{
 }
 .Connect{
     position: absolute;
-    top: 150.90px;
-    margin-left: 35px;
+    top: 193.90px;
+    margin-left: 75px;
     margin-right: 30px;
     font-weight: bold;
     size: 50%;
@@ -116,7 +134,7 @@ img{
     align-items: center;
     margin-bottom: 10px;
     flex-direction: row;
-    opacity: 50%;
+    opacity: 90%;
     font-family: Montserrat;
     font-weight: bold;
 }
@@ -139,7 +157,7 @@ img{
     text-align: left;
     margin-left:0px;
 }*/
-.Valid{
+#Valid{
     position: absolute;
     top: 490.90px;
     margin-left: 175px;
@@ -147,6 +165,7 @@ img{
     border-radius: 25px;
     background-color: white;
     width: 90px;
+    color: black;
 }
 .icons{
     display: flex;
@@ -170,7 +189,6 @@ img{
     left: 40%;
     top: 15%;
     background-image: url(ImageMarvelGame/background_groupmarvel.png);
-   /* background-image: url(ImageMarvelGame/background_groupmarvel.png);*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -204,7 +222,101 @@ img{
     top: 15%;
     text-align: center;   
 }
+.My_base_incript{
+    width: 271px;
+    height:555px ;
+    border-radius: 20px;
+    border:2px;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    text-align: center;
+    background-image: url(ImageMarvelGame/spiderman.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+.Inscript{
+    position: absolute;
+    top: 250.90px;
+    margin-left: 65px;
+    font-weight: bold;
+    size: 50%;
+    opacity: 80%;
+    font-weight: bold;
+}
+.Inscription{
+    position: absolute;
+    top: 470.90px;
+    margin-left: 130px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    width: 120px;
+}
+.drsTrange{
+    position: absolute;
+    top: 370.90px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 25px;
+    opacity: 80%;
+}
+.strange{
+    width: 100px;
+    height: 150px;
+}
+.fantastic{
+    width: 100px;
+    height: 150px;
+}
+.mr_fantastic{
+    position: absolute;
+    top: 370.90px;
+    margin-left: 170px;
+    text-align: center;
+    border-radius: 25px;
+    opacity: 60%;
+}
+.conv_strange{
+    position: absolute;
+    top: 250.90px;
+    margin-left: 60px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    width: 120px;
+    width: 200px;
+    font-size: small;
+    opacity: 65%;
+}
+.conv_mrfantas{
+    position: absolute;
+    top: 260px;
+    margin-left: 20px;
+    text-align: auto;
+    border-radius: 25px;
+    background-color: white;
+    width: 200px;
+    font-size: small;
+    opacity: 65%;
 
+}
+.btnComm{
+    position: absolute;
+    top: 260px;
+    margin-left: -100px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(24, 174, 67);
+    width: 200px;
+    font-size: small;
+    opacity: 75%;
+    color: red;
+}
 
 
 

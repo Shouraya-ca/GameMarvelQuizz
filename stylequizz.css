@@ -1,0 +1,166 @@
+.throneofdoom {
+     position: relative;
+     width: 100vw; /* Utilise toute la largeur de la fenêtre */
+     height: auto; /* Maintient le ratio de l'image */
+     transition: transform 2s ease-in-out;
+    }
+    
+    .throneRoom img {
+     width: 100vw; /* L'image prendra toute la largeur du conteneur */
+     height: 100vh; /* Maintient le ratio de l'image */
+     object-fit: contain;
+    }
+    
+    .throneofdoom.transformed {
+     transform: translate(20px, -50%);
+    }
+    
+    .DoctorDoom {
+     /* Conteneur de l'image de Doctor Doom */
+     position: absolute;
+     top: 410px; /* Ajustez cette valeur pour positionner l'image de Doctor Doom */
+     left: 522px; /* Ajustez cette valeur pour positionner l'image de Doctor Doom */
+     width: 60%; /* Ajustez cette valeur selon vos besoins */
+     height: auto; /* Maintient le ratio de l'image */
+    }
+    
+    .DoctorDoom img {
+     width: 40%; /* Ajustez la dimension globale de DOOM */
+     height: auto; /* Maintient le ratio de l'image */
+     opacity: 0;
+     transition: opacity 1s ease-in-out; /* Transition pour une apparition fluide */
+    }
+    
+    .health-bar {
+     position: absolute;
+     top: -20px; /* Ajustez cette valeur pour positionner la jauge de vie */
+     left: 20%;
+     transform: translateX(-50%);
+     width: 100px; /* Ajustez la largeur de la jauge de vie */
+     height: 10px; /* Ajustez la hauteur de la jauge de vie */
+     background-color: red; /* Couleur de fond de la jauge de vie */
+     border: 1px solid #000; /* Bordure de la jauge de vie */
+     border-radius: 200px; /* Coins arrondis de la jauge de vie */
+     opacity: 0; /* Initialement invisible */
+     transition: opacity 1s ease-in-out; /* Transition pour une apparition fluide */
+    }
+    
+    .health-bar-fill {
+     width: 100%; /* Largeur initiale de la jauge de vie remplie */
+     height: 100%;
+     background-color: green; /* Couleur de la jauge de vie remplie */
+     border-radius: 200px; /* Coins arrondis de la jauge de vie remplie */
+    }
+    
+    .health-bar.visible {
+     opacity: 1; /* Rendre visible */
+    }
+    
+    .player-lives {
+     position: absolute;
+     top: 330px; /* Ajustez cette valeur pour positionner les cœurs */
+     left: 70%; /* Ajustez cette valeur pour positionner les cœurs */
+     transform: translateX(-50%);
+     display: flex;
+     gap: 10px; /* Espace entre les cœurs */
+    }
+    
+    .heart {
+     width: 30px; /* Ajustez la taille des cœurs */
+     height: 30px; /* Maintient le ratio de l'image */
+     transition: opacity 1s ease-in-out;
+    }
+    .heart.visible {
+     opacity: 1; /* Rendre visible */
+    }
+    
+    .dialogue-container {
+     margin-top: -342px; /* Espace au-dessus du conteneur de dialogue */
+     padding: 20px;
+     background-color: #141414;
+     border: 1px solid #ccc;
+     border-radius: 10px;
+     width: 54vw;
+     height: 40vh;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     position: relative;
+     transition: opacity 1s ease-in-out; /* Transition pour une apparition fluide */
+     opacity: 0;
+    }
+    .dialogue-container.visible {
+     opacity: 1; /* Rendre visible */
+    }
+    
+    .character {
+     display: flex;
+     align-items: center;
+     margin-bottom: 10px;
+    }
+    
+    .character-img {
+     width: 50px;
+     height: 50px;
+    
+     justify-content: space-between;
+    }
+    
+    .dialoguestrange {
+     color: rgb(239, 22, 22);
+    }
+    .dialoguefantastic {
+     color: rgb(24, 190, 227);
+    }
+    
+    .character1-img {
+     /* Image dr.strange */
+     width: 175px;
+     height: 150px;
+     position: absolute; /* Permet de déplacer l'image */
+     top: 100px; /* Ajustez cette valeur pour positionner l'image */
+     left: 100px; /* Ajustez cette valeur pour positionner l'image */
+    }
+    
+    .character2-img {
+     width: 150px;
+     height: 150px;
+     margin-right: 10px;
+     position: absolute; /* Permet de déplacer l'image */
+     top: 100px; /* Ajustez cette valeur pour positionner l'image */
+     right: 100px; /* Ajustez cette valeur pour positionner l'image */
+    }
+    
+    .quiz-container {
+     margin-top: -342px; /* Espace au-dessus du conteneur du quiz */
+     padding: 20px;
+     background-color: #090909;
+     border: 1px solid #ccc;
+     border-radius: 10px;
+     width: 48%;
+     margin-left: 366px;
+     margin-right: auto;
+     text-align: center;
+    }
+    
+    .titlebattlequizz {
+     color: rgb(228, 116, 24);
+    }
+    .Question1 {
+     color: white;
+     font-size: 20px;
+     margin-bottom: 20px;
+    }
+    .choice1 {
+     border-radius: 500px;
+    }
+    .choice2 {
+     border-radius: 500px;
+    }
+    .choice3 {
+     border-radius: 500px;
+    }
+    .choice4 {
+     border-radius: 500px;
+    }
+    

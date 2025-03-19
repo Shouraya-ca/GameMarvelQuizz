@@ -1,9 +1,4 @@
 # GameMarvelQuizz
-Voici un exemple de README pour votre jeu de quiz Marvel :
-
-markdown
-# Marvel Quiz Game 🎮🦸‍♂
-
 Un jeu de quiz Marvel amusant et interactif ! Testez vos connaissances sur l'univers Marvel, gagnez des points, et tentez votre chance pour remporter un ticket de cinéma !
 
 ## Fonctionnalités
@@ -40,11 +35,8 @@ Un jeu de quiz Marvel amusant et interactif ! Testez vos connaissances sur l'u
 
 ## Contributions
 Les contributions sont les bienvenues ! Pour proposer des améliorations :
-1. Forkez le projet.
-2. Créez une branche pour votre fonctionnalité :
-   bash
-   git checkout -b feature/nouvelle-fonctionnalité
-   
+1. Copier le projet.
+2. Créez une branche
 3. Soumettez une pull request avec une description claire de vos modifications.
 
 ## Licence
@@ -53,6 +45,3 @@ Ce projet est sous licence [MIT](LICENSE).
 ---
 
  **shouraya20@gmail.com** pour toute question ou suggestion concernant le jeu. Bon quiz et que la chance soit avec vous ! 
-
-
-Qu’en pensez-vous ? Si vous avez besoin d’adaptations ou de détails supplémentaires, je suis là pour vous aider ! 
